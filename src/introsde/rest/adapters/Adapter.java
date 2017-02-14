@@ -85,7 +85,7 @@ public class Adapter {
      @GET
      @Path("/getPictureUrl")
      public Response getPicture() throws ClientProtocolException, IOException {
-     	String[] tags = {"zodecinol", "nowdec" , "trenzodex" , "fullzodec"};
+     	String[] tags = {"pogba", "Zlatan" , "Williams" , "kobe"};
          int randomNum = 0 + (int)(Math.random()*(tags.length-1));
 
          final String ACCESS_TOKEN = "339217238.ce0d3c3.f7923a12febd4161a3939c99560c83af";
